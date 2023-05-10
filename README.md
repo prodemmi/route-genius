@@ -1,6 +1,9 @@
 ![Laravel Route Genius](./assets/banner.png)
 
-Laravel Route Genius is a package for defining your routes in controllers.
+# Installation
+`composer require prodemmi/route-genius`
+# Usage
+Route Genius is a package for defining your routes in controllers.
 
 ```php
 <?php
