@@ -1,0 +1,41 @@
+{
+  "name": "prodemmi/route-genius",
+  "description": "This package provides defining routes in controller.",
+  "type": "package",
+  "license": "MIT",
+  "homepage": "https://github.com/prodemmi/route-genius",
+  "keywords": [
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Emad Malekpour",
+      "email": "prodemmi@gmail.com",
+      "homepage": "https://github.com/prodemmi"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Prodemmi\\RouteGenius\\": "src/",
+      "Prodemmi\\RouteGenius\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Prodemmi\\RouteGenius\\RouteGeniusServiceProvider"
+      ]
+    },
+    "aliases": {
+      "RouteGenius": "Prodemmi\\RouteGenius\\Facades\\RouteGenius"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "orchestra/testbench": "*"
+  }
+}
