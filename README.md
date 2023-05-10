@@ -45,4 +45,3 @@ class AppController extends BaseController
 }
 
 ```
-See [WIKI](https://github.com/prodemmi/route-genius/wiki) for more information.
